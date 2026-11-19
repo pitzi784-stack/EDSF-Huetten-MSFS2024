@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ EDSF Hütten-Hotzenwald / MSFS 2024 Airport source (DRAFT).
+ Source: https://docs.flightsimulator.com/msfs2024/retail/content-configuration/environment/airports-and-facilities/
+ WARNING: Center coordinates below are taken from a Google Maps PLACE MARKER,
+ not a surveyed runway center. Altitude and runway heading are provisional.
+ DO NOT DISTRIBUTE as a finished scenery without verification and SDK build.
+-->
+<FSData version="9.0">
+  <Airport
+    ident="EDSF"
+    name="Huetten-Hotzenwald"
+    lat="47.6344533"
+    lon="7.9407154"
+    alt="880.0"
+    alt_type="GEOID">
+    <Runway
+      lat="47.6344533"
+      lon="7.9407154"
+      alt="880.0"
+      altType="GEOID"
+      surface="GRASS"
+      heading="110.0"
+      length="670.0"
+      width="30.0"
+      number="11"
+      designator="NONE"
+      primaryTakeoff="TRUE"
+      primaryLanding="TRUE"
+      secondaryTakeoff="TRUE"
+      secondaryLanding="TRUE">
+      <Markings edges="FALSE" threshold="FALSE" fixedDistance="FALSE"
+        dashes="FALSE" ident="FALSE" touchdown="FALSE" precision="FALSE"/>
+      <Lights edge="NONE" center="NONE"/>
+      <RunwayStart end="PRIMARY" lat="47.6354837" lon="7.9365234" alt="880.0" heading="110.0"/>
+      <RunwayStart end="SECONDARY" lat="47.6334229" lon="7.9449074" alt="880.0" heading="290.0"/>
+    </Runway>
+  </Airport>
+</FSData>
